@@ -45,18 +45,14 @@
 
 ### Task 1
 
-- ?
-- ?
+- Done 
+- LIFO: Last in first out, the latest thing put into the queue is the first one to get out on dequeueing.
+- FIFO: First in first out, the first thing that was put into the queue is the first one to get out on dequeueing.
 
 ### task 2
 
-- ?
-- ?
+- The stack contains a method for constructing a stack. There are also methods for pushing an int to the stack and popping the latest int out, and for checking the size of the stack, if the stack is empty and if its full. The popping does not remove the latest int from the array, but rather just decreases the top by one.
 
-### task 3
-
-- ?
-- ?
 
 ---
 
