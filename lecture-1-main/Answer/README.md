@@ -13,9 +13,9 @@
 ### task 2
 
 - Abstraction: Abstraction in coding refers to hiding implementation details and exposing only essential features through interfaces or classes. This allows for more efficient and organized code development, maintenance, and reuse.
-Encapsulation: Removing access to parts of the code by making attributes/methods private.
-Inheritance: Lets an object acquire the properties and methods of another object (Super/sub class)
-Polymorphism: The same object can occure in your code in many forms. This means that every subclass can change the output of methods that are introduced in the super class
+- Encapsulation: Removing access to parts of the code by making attributes/methods private.
+- Inheritance: Lets an object acquire the properties and methods of another object (Super/sub class)
+- Polymorphism: The same object can occure in your code in many forms. This means that every subclass can change the output of methods that are introduced in the super class
 
 
 ### task 3
@@ -28,18 +28,16 @@ Polymorphism: The same object can occure in your code in many forms. This means 
 
 ### Task 1
 
-- ?
-- ?
+- ADT defines the logical form of data, while data structures implement the physical form of that same data.
 
 ### task 2
 
-- ?
-- ?
+- Done
 
 ### task 3
 
-- ?
-- ?
+- The code has methods for constructing a Queue, and also for dequeueing and enqueueing objects into the queue. There are also methods for checking the size of the queue, checking if the queue is empty or full, and also to peek what object is in front of the queue. The code follows the FIFO principle (First in first out)
+
 
 ---
 
