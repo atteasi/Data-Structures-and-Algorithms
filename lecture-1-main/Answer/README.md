@@ -60,18 +60,15 @@
 
 ### Task 1
 
-- ?
-- ?
+Bubble Sort iterates through an array comparing a value to the next value in the array, and swaps them if the former is larger than the latter.
 
 ### task 2
 
-- ?
-- ?
+- Done.
 
 ### task 3
 
-- ?
-- ?
+- The code compares the values in an array using bubble sort. If the first value is smaller than the second, it's saved in a temp variable. Next the bigger value is put in the smaller's values array position. After that the temp value is put into the bigger value's old position. So they are swapped. Also a pass variable is incremented.
 
 ---
 
@@ -79,19 +76,19 @@
 
 ### Task 1
 
-- ?
-- ?
+- Linear search compares the int you want to search to each int in the array in order until it finds a matching int and then returns the index of that value. If the searched int is not found in the array, then the program throws an error.
 
 ### task 2
 
-- ?
-- ?
+- The code demonstrates unordered linear search. The code creates an array full of int values. The code asks the user for a key to search and then goes through the array starting with the index 0. If it finds the key, the index is stored and then printed out to the user. If it does not find it, the location 0 is saved and the prints out "Key not found".
+
 
 ### task 3
 
-- ?
-- ?
-
+- 1. d) When the list has only a few elements and When performing a single search in an unordered list
+- 2. a)
+- 3. b)
+- 4. a)
 ---
 
 ## Peer Assessment
