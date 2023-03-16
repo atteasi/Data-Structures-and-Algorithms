@@ -51,7 +51,7 @@
 
 ### task 2
 
-- The stack contains a method for constructing a stack. There are also methods for pushing an int to the stack and popping the latest int out, and for checking the size of the stack, if the stack is empty and if its full. The popping does not remove the latest int from the array, but rather just decreases the top by one.
+- The stack contains a method for constructing a stack. There are also methods for pushing an int to the stack and popping the latest int out, and for checking the size of the stack, if the stack is empty and if its full. The popping removes the latest int from the array and also decreases the top by one
 
 
 ---
