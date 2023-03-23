@@ -117,50 +117,94 @@ The insert() method inserts a new element at the current position in a singly li
 
 ### Task 1
 
-- ?
-- ?
+- Efficiency, scalability and resource optimization
+- The Big O notation is used to describe the growth rate of an algorithm in terms of input size.
+- Constant complexity is the most desirable, followed by logarithmic, linear, and finally quadratic complexities.
 
 ### task 2
 
-- ?
-- ?
+- ```java
+	int[] list = {1, 2, 3, 4, 5, 6}
+	int square = list[0] * list[0];
+	System.out.println(square);
+- The complexity is O(1)
 
 ### task 3
 
-- ?
-- ?
+- ```java
+	int[] list = {11, 22, 33, 44, 55, 66};
+	for(int i = 0; i < list.length; i++){
+		System.out.println(list[i]);
+	}
+- The complexity is O(n)
 
+### task 4
+
+- Complexity refers to how difficult a problem or algorithm is to solve, while performance refers to how well a system or algorithm executes a given task.
+- Complexity affects performance, and performance can also affect complexity.
+-  Big O notation tells us how much "work" an algorithm will take as its input gets bigger and bigger.
 ---
 
 ## Pair Programming 2
 
 ### Task 1
 
-- ?
-- ?
+- 17
+- [x] At most, 6.
 
 ### task 2
 
-- ?
-- ?
+- There are 2 classes: LinkNode and SingleLL. LinkNode only contains a constructor for LinkNodes that are used in the SingleLL, in which the LinkNode object is assigned data and the value of the next node. SingleLL has a constructor that assigns the head as null. The method addNode creates a node based on given data and then connects the current node to the previous head.
+There is also a dispaly method to display every node in the SingleLL
+- ```java
+	public void addNodeToEnd(int data){
+		LinkNode node = new LinkNode(data);
+		LinkNode current = this.head;
+     	while (current.next != null) {
+        	current = current.next;
+      	}
+      	current.next = node;
+	}
+
+- ```java
+	LinkNode newNode = new LinkNode(data);
+    LinkNode current = head;
+    int currentPosition = 0;
+
+    head = (position == 0) ? newNode : head;
+    newNode.next = (position == 0) ? current : null;
+
+    while (current != null && currentPosition < position - 1) {
+      current = current.next;
+      currentPosition++;
+    }
+
+    // If the current node is not null, insert the new node after the current node
+    if (current != null) {
+      newNode.next = current.next;
+      current.next = newNode;
+    }
+  
 
 ### task 3
 
-- ?
-- ?
+- Implementing a sorted linekd list only means you need to modify the addNode method to put the node in the right place. This can be achieved with linear search.
 
 ---
 
 ## Peer Assessment
 
+
 ### Group members (Including yourself)
 
-- ?
-- ?
-- ?
-- ?
-- ?
+- Atte Asikainen 5
+- Sebastian Wolf 5
+- Juho Ahola 5
+- Eveliina Heino 5
 
+
+- Pair:
+	Sebastian Wolf 5
 ### Other Groups (When applicable)
 
 - ?

@@ -84,5 +84,6 @@ class Main {
     arr.delete(55);
     arr.delete(99);
     arr.display(); // display items again
+
   } 
 } 
